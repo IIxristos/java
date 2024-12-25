@@ -1,7 +1,7 @@
 import java.io.*;
 public class Main {
     public static void main(String[] args) throws IOException {
-        System.out.println("Для выхода введите exit. Ввод: ");
+        System.out.println("Для выхода нажмите exit. Ввод: ");
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String input;
         while (!(input = bufferedReader.readLine()).equals("exit")) {
